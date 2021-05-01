@@ -1,0 +1,94 @@
+.player__card {
+    width: calc(100% - 10px);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 8px auto;
+    box-shadow: 0 5px 20px rgba(24, 49, 83, 0.1);
+    max-width: 380px;
+}
+
+.player__img--box {
+    height: 100px;
+    width: 100%;
+    background: #183153;
+    background: linear-gradient(rgba(24, 49, 83, 0.95), rgba(24, 49, 83, 0.92)), url(https://img.rasset.ie/00150960-500.jpg) no-repeat center center / cover;
+    margin-bottom: 55px;
+}
+
+.player__img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    transform: translateY(50px);
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 10px 30px rgba(24, 49, 83, 0.4);
+    background: #183153;
+}
+
+.player__info--box {
+    padding: 10px;
+}
+
+.player__name {
+    color: #183153;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    margin-bottom: 3px;
+}
+
+.player__position {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.player__club {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Teko', sans-serif;
+}
+
+.player__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5px 0 20px;
+}
+
+.player__table tr td {
+    border: 1px solid hsl(0, 0%, 95%);
+    padding: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.player__btn {
+    border: 0;
+    outline: 0;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    background: #183153;
+    padding: 9px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+.player__btn:hover {
+    letter-spacing: 2px;
+}
+
+.player__btn.disable{
+    pointer-events: none;
+    background: #1831537a;
+    letter-spacing: 1px;
+}

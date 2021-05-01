@@ -1,0 +1,15 @@
+.navbar {
+    background: #183153;
+    text-align: center;
+}
+
+.navbar__nav{
+    padding: 5px 0;
+}
+
+.navbar__logo {
+    color: #fffffff2;
+    font-family: 'Teko', sans-serif;
+    margin-bottom: 0;
+    font-size: 30px;
+}

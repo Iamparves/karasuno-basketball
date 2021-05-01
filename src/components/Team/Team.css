@@ -1,0 +1,30 @@
+.team__title {
+    color: #183153;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    border-bottom: 2px solid #183153;
+    margin-bottom: 20px;
+}
+
+.team__table {
+    width: 100%;
+}
+
+.team__table thead tr {
+    background: hsl(0, 0%, 94%);
+}
+
+.team__table tr {
+    background: hsl(0, 0%, 98%);
+}
+
+.team__table tbody tr:nth-child(2n) {
+    background: hsl(0, 0%, 94%);
+}
+
+.team__table th,
+.team__table td {
+    border: 1px solid #e2e2e2;
+    padding: 8px;
+    font-size: 15px;
+}
